@@ -41,8 +41,8 @@
 <cloudHubDeployment>
 <uri>https://anypoint.mulesoft.com/</uri>
 <muleVersion>${app.runtime}</muleVersion>
-<username>${ANYPOINT_CREDENTIALS_USR}</username>
-<password>${ANYPOINT_CREDENTIALS_PSW}</password>
+<username>${username}</username>
+<password>${password}</password>
 <applicationName>${project.artifactId}</applicationName>
 <environment>Sandbox</environment>
 <workerType>${workerType}</workerType>
